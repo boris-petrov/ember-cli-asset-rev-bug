@@ -9,6 +9,9 @@ const App = Application.extend({
   Resolver
 });
 
+const x = 'assets/ember-cli-asset-rev-bug.css';
+console.log(x);
+
 loadInitializers(App, config.modulePrefix);
 
 export default App;
